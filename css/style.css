@@ -154,9 +154,6 @@ address {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
-.img-hero {
-}
-
 .img-backg {
   background-image: url(../images/Ellipse.png);
   background-repeat: no-repeat;
@@ -237,9 +234,6 @@ address {
 .favorites {
   padding-top: 120px;
   padding-bottom: 104px;
-}
-
-.favorites-container {
 }
 
 .favorites-title {
@@ -331,9 +325,6 @@ address {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #7eb101;
-}
-
-.privacy-text {
 }
 
 .btn-submit {
