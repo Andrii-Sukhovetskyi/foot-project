@@ -23,11 +23,7 @@
     <header class="header">
       <div class="container header-container">
         <a class="link-logo" href=""
-          ><img
-            src="./images/vector-logo.jpg"
-            alt="logo"
-            width="66"
-            height="52"
+          ><img src="./images/logo.png" alt="logo" width="66" height="52"
         /></a>
         <nav class="nav-header">
           <ul class="nav-list">
@@ -42,7 +38,7 @@
       </div>
     </header>
     <main>
-      <section clas="hero">
+      <section class="hero">
         <div class="container hero-container">
           <div class="hero-wrapp">
             <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
@@ -54,21 +50,15 @@
             </p>
             <button class="hero-btn" type="button">Order Now</button>
           </div>
-          <svg>
-            <use
-              href="./images/icons.svg#icon-Ellipse"
-              width="580"
-              height="580"
-            ></use>
-
+          <div class="img-backg">
             <img
               class="img-hero"
-              src="./images/hero.jpg"
+              src="./images/hero.png"
               alt="hero"
               width="528"
               height="528"
             />
-          </svg>
+          </div>
         </div>
       </section>
       <section class="Offering">
@@ -206,10 +196,57 @@
               Subscribe
             </button>
           </form>
-          <img src="./images/banan.jpg" alt="banan" width="608" height="266" />
+          <img src="./images/banan.png" alt="banan" width="608" height="266" />
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="" class="logo-footer"
+          ><img src="./images/logo.png" alt="logo" width="66" height="52" />
+        </a>
+        <nav class="nav-footer">
+          <ul class="nav-list">
+            <li><a class="link-nav" href="">Home</a></li>
+            <li><a class="link-nav" href="">About</a></li>
+            <li><a class="link-nav" href="">Service</a></li>
+            <li><a class="link-nav" href="">Menu</a></li>
+            <li><a class="link-nav" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="form-footer">
+          <p class="text-form">Subscribe</p>
+
+          <form>
+            <div class="form-div">
+              <label class="label-submit" for="email">
+                <input
+                  class="form-input"
+                  id="email"
+                  type="email"
+                  name="user-email"
+                  placeholder="Enter your email"
+                />
+              </label>
+              <button type="submit" class="btn-submit">Subscribe</button>
+            </div>
+            <div class="privacy-text">
+              <p class="text-priv">
+                By subscribing you agree to with our
+                <a class="link-privacy-policy" href="">Privacy Policy</a>
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="select-text">
+          <ul class="select-list">
+            <li><a class="select-link" href="">Privacy Policy</a></li>
+            <li><a class="select-link" href="">Terms of Service</a></li>
+            <li><a class="select-link" href="">Cookies Settings</a></li>
+          </ul>
+        </div>
+        <p class="sel-text">2022 FoodSta. All right reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
